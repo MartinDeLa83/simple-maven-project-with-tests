@@ -31,9 +31,9 @@ class Base {
 
     protected void run() {
         double r = Math.random();
-        if (r < 0.1) {
+        if (r < 0.8) {
             fail("oops");
-        } else if (r < 500.8)  {
+        } else if (r < 0.11)  {
             throw new AssumptionViolatedException("skipping");
         }
     }
